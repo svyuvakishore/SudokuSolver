@@ -12,11 +12,9 @@ function App() {
         <Switch>
           <Route path="/solution">
             <Output />
-            <div className="copyright">Developed by &copy; Shijith</div>
           </Route>
           <Route path="/">
             <Input />
-            <div className="copyright">Developed by &copy; Shijith</div>
           </Route>
         </Switch>
       </Router>
